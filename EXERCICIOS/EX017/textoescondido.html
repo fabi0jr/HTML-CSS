@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto Escondido</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: blue;
+            width: 200px;
+            text-align: center;
+        }
+
+        div:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Utilizado em tipos de menu e outros</h1>
+    <p>Passe o Mouse no Texto</p>
+    <div>
+        AQUI!
+        <p>Achoouuuu!</p>
+    </div>
+</body>
+</html>

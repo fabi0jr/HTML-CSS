@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptação de imagens</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Aqui a imagem se adequa ao seu tamanho de tela</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto Dinâmica">
+    </picture>
+
+    <h1>Audio em HTML</h1>
+    <audio preload="metadata" autoplay controls>
+        <source  src="midia/CerolnaMao.mp3" type="audio/mpeg">
+        <p>Infelizmente o navegador não consegue reproduzir audio. <a href="midia/CerolnaMao.mp3">clique aqui.</a> </p>
+    </audio>
+
+    
+</body>
+</html>
